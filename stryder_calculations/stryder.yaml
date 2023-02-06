@@ -1,0 +1,78 @@
+!!python/object:rocket_stage_calc.Rocket
+original_stage:
+- !!python/object:rocket_stage_calc.Stage
+  Isp: 300
+  SMF: 0.11
+  dV: 2000
+  engine_num: 3
+  m_stage: 0
+  mass_ratio: 0.5068304947212465
+  minTWR: 2
+  type: Hybrid
+- !!python/object:rocket_stage_calc.UserDefinedStage
+  Isp: 340
+  SMF: 0.11
+  dV: 3500
+  engine_num: 1
+  mass_ratio: 0.3501654915076528
+  minTWR: 1.5
+  type: Methalox
+- !!python/object:rocket_stage_calc.UserDefinedStage
+  Isp: 300
+  SMF: 0.11
+  dV: 2000
+  engine_num: 3
+  mass_ratio: 0.5068304947212465
+  minTWR: 2
+  type: Hybrid
+payload: 182
+stage:
+- !!python/object:rocket_stage_calc.Stage
+  Fmin: 36882.97435290235
+  FperEngine: 12294.324784300783
+  Isp: 300
+  SMF: 0.11
+  burntime: 133.5
+  dV: 2000
+  engine_num: 3
+  m_dot: 12.53244116646359
+  m_propellant: 1673.0808957228894
+  m_stage: 1879.8661749695386
+  m_struct: 206.78527924664922
+  mass_ratio: 0.5068304947212465
+  minTWR: 2
+  type: Hybrid
+- !!python/object:rocket_stage_calc.UserDefinedStage
+  Fmin: 16252.073862239991
+  FperEngine: 16252.073862239991
+  Isp: 340
+  SMF: 0.11
+  burntime: 201.73333333333332
+  dV: 3500
+  engine_num: 1
+  m_dot: 4.872601145961501
+  m_propellant: 982.9660711786335
+  m_stage: 1104.4562597512736
+  m_struct: 121.49018857264008
+  mass_ratio: 0.3501654915076528
+  minTWR: 1.5
+  type: Methalox
+- !!python/object:rocket_stage_calc.UserDefinedStage
+  Fmin: 4437.737068232669
+  FperEngine: 1479.2456894108898
+  Isp: 300
+  SMF: 0.11
+  burntime: 133.49999999999997
+  dV: 2000
+  engine_num: 3
+  m_dot: 1.5078957078602342
+  m_propellant: 201.30407699934122
+  m_stage: 226.1843561790351
+  m_struct: 24.880279179693858
+  mass_ratio: 0.5068304947212465
+  minTWR: 2
+  type: Hybrid
+total_dV: 7500
+total_propellant_mass: 2857.351043900864
+total_stage_mass: 3392.506790899847
+total_struct_mass: 535.1557469989832
